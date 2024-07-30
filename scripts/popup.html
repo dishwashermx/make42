@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>42 Projects</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>42 Projects</h1>
+        <input type="text" id="search-bar" placeholder="Search...">
+        <div class="buttons-container">
+            <button class="button" data-project="0 Circle">0 Circle</button>
+            <button class="button" data-project="1 Circle">1 Circle</button>
+            <button class="button" data-project="2 Circle">2 Circle</button>
+            <button class="button" data-project="3 Circle">3 Circle</button>
+            <button class="button" data-project="4 Circle">4 Circle</button>
+            <button class="button" data-project="5 Circle">5 Circle</button>
+            <button class="button" data-project="Algo & AI Data, Security">Algo & AI Data, Security</button>
+            <button class="button" data-project="Devops">Devops</button>
+            <button class="button" data-project="Web & Mobile">Web & Mobile</button>
+            <button class="button" data-project="System & Kernel">System & Kernel</button>
+            <button class="button" data-project="Graphics & Gaming">Graphics & Gaming</button>
+            <button class="button" data-project="Cryptography & Maths">Cryptography & Maths</button>
+            <button class="button" data-project="Development">Development</button>
+            <button class="button" data-project="Professional Experience">Professional Experience</button>
+            <button class="button" data-project="Rush">Rush</button>
+            <button class="button" data-project="Shell">Shell</button>
+            <button class="button" data-project="C">C</button>
+        </div>
+        <div id="results-container">
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>PDF</th>
+                        <th>Project Page</th>
+                    </tr>
+                </thead>
+                <tbody id="results-body">
+                    <!-- Results will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
